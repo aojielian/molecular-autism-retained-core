@@ -1,0 +1,7 @@
+item	value
+barcode_col_validation	cell
+celltype_col_validation	cluster
+donor_col_validation	individual
+dx_col_validation	diagnosis
+n_all_cells_validation	104559
+n_mg_cells_validation	3331

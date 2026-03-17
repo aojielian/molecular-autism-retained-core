@@ -1,0 +1,2 @@
+signature_name	cluster	n_donors	mean_score_ASD	mean_score_Control	effect_ASD_minus_Control_validation	wilcox_p_validation	wilcox_fdr_validation	effect_ASD_minus_Control_discovery	wilcox_p_discovery	wilcox_fdr_discovery	top_marker_preview	n_mapped	cluster_label	neglog10p
+Cluster14	14	29	0.0118343448438876	-0.00375624082766231	0.0155905856715499	0.471451706838927	1	-0.000944315606526903	0.749268076764465	0.797508211797955	GPC5, SLC1A2, ADGRV1, ST18, RNF219-AS1, FBXL7, CTNNA3, RNF220, NKAIN3, NPAS3, NTM, PPP2R2B	47	C14	0.326562787608602

@@ -1,0 +1,5 @@
+Figure 3 = discovery-stage disease association.
+Paired donor count for delta model: 50
+Genes with FDR<0.10 in donor-delta model: 0
+Minimum FDR in donor-delta model: 0.985094
+Interpretation target: upward abundance tendency, but no robust diagnosis-enhanced internal state shift.

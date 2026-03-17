@@ -1,0 +1,7 @@
+item	value
+n_cells	34945
+n_features	31112
+default_assay	RNA
+cluster_col	seurat_clusters
+donor_col	individual_ID
+dx_col	Diagnosis

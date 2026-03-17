@@ -1,0 +1,26 @@
+Perturbation-based prioritization summary
+======================================
+
+Top primary reversal candidates:
+- vemurafenib: reversal_score=7.081; candDown_adjP=0.887; refUp_adjP=4.58e-06
+- plx4032 db05238: reversal_score=5.269; candDown_adjP=0.00671; refUp_adjP=0.0119
+- halothane: reversal_score=4.869; candDown_adjP=0.887; refUp_adjP=0.000143
+- creatine: reversal_score=4.784; candDown_adjP=0.887; refUp_adjP=0.000143
+- formaldehyde: reversal_score=3.540; candDown_adjP=0.0854; refUp_adjP=0.0168
+- lipopolysaccharide: reversal_score=3.447; candDown_adjP=0.00474; refUp_adjP=0.703
+- vx: reversal_score=3.044; candDown_adjP=0.00496; refUp_adjP=0.901
+- morphine db00295: reversal_score=2.771; candDown_adjP=0.788; refUp_adjP=0.00811
+- pioglitazone db01132: reversal_score=2.702; candDown_adjP=0.887; refUp_adjP=0.00811
+- phenytoin: reversal_score=2.561; candDown_adjP=0.887; refUp_adjP=0.00882
+
+Top pooled-DE sensitivity reversal candidates:
+- cetuximab db00002: reversal_score=9.026; pooledUp->drugDown_adjP=4.01e-08; pooledDown->drugUp_adjP=0.973
+- lipopolysaccharide: reversal_score=6.715; pooledUp->drugDown_adjP=4.8e-06; pooledDown->drugUp_adjP=0.973
+- curcumin: reversal_score=6.526; pooledUp->drugDown_adjP=4.8e-06; pooledDown->drugUp_adjP=0.973
+- etanercept db00005: reversal_score=6.492; pooledUp->drugDown_adjP=4.8e-06; pooledDown->drugUp_adjP=0.973
+- ascorbic acid: reversal_score=6.118; pooledUp->drugDown_adjP=1.06e-05; pooledDown->drugUp_adjP=0.973
+- cigarette smoke: reversal_score=6.099; pooledUp->drugDown_adjP=1.06e-05; pooledDown->drugUp_adjP=0.973
+- curcumin cid: reversal_score=5.267; pooledUp->drugDown_adjP=3.34e-05; pooledDown->drugUp_adjP=0.973
+- formoterol db00983: reversal_score=5.113; pooledUp->drugDown_adjP=6.29e-05; pooledDown->drugUp_adjP=0.973
+- imatinib db00619: reversal_score=5.090; pooledUp->drugDown_adjP=6.41e-05; pooledDown->drugUp_adjP=0.973
+- ubiquinol: reversal_score=5.056; pooledUp->drugDown_adjP=6.41e-05; pooledDown->drugUp_adjP=0.973

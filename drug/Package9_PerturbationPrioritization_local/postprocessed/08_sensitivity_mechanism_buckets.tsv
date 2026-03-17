@@ -1,0 +1,8 @@
+mechanism_bucket	n_hits	top_examples
+Other / unclassified	59	5-fluorouracil; estradiol db00783; retinoic acid; 4-hydroxytamoxifen; harman
+Immune / signaling-targeted	8	cetuximab db00002; curcumin; etanercept db00005; curcumin cid; formoterol db00983
+Inflammatory / stress perturbation	6	lipopolysaccharide; cigarette smoke; hydrogen peroxide; hypochlorous acid; ethanol
+Cytotoxic / DNA-stress-like perturbation	4	trovafloxacin; menadione db00170; cisplatin db00515; decitabine db01262
+Metabolic / nutrient-related	3	ascorbic acid; ubiquinol; resveratrol db02709
+Neuroactive / anesthetic-related	2	phenytoin; morphine
+MAPK/BRAF-related	1	plx4720 cid

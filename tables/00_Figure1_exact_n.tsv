@@ -1,0 +1,7 @@
+panel	object	diagnosis	n_cells	n_donors	n_clusters
+A/B	discovery_stage_object	All	34945	60	19
+A/B	discovery_stage_object	Control	12951	29	19
+A/B	discovery_stage_object	ASD	21994	31	19
+D/E	strict_retained_core	All	13985	59	2
+D/E	strict_retained_core	Control	4226	28	2
+D/E	strict_retained_core	ASD	9759	31	2

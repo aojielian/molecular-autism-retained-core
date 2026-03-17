@@ -1,0 +1,5 @@
+filter	n_cells
+baseline	13985
+neuronal_filtered	12586
+scrublet_filtered	13289
+combined_filtered	12036

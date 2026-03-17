@@ -1,0 +1,2 @@
+metric	mean_case	mean_control	effect_case_minus_control	wilcox_p	lm_p	n_case_donor	n_control_donor
+oof_state_concordance_cluster2_minus_cluster0	0.574514827239893	0.58187542804953	-0.00736060080963791	0.776878563419682	0.873052851264774	28	22

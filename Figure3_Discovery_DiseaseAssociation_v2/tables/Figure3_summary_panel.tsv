@@ -1,0 +1,8 @@
+endpoint	finding	row	fill	fill_alpha
+Cluster 2 proportion	"Higher in ASD
+Effect = 0.054; lm P = 0.069"	3	#C97B84	0.22
+log2(C2/C0) ratio	"Higher in ASD
+Effect = 0.587; lm P = 0.064"	2	#C97B84	0.22
+Donor-paired delta model	"50 paired donors
+0 genes with FDR<0.10
+No robust dx-enhanced internal shift"	1	#E6E6E6	1

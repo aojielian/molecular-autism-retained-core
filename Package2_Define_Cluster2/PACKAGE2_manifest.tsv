@@ -1,0 +1,9 @@
+output_file	description
+06_celllevel_DE_cluster2_vs_0.tsv.gz	cell-level differential expression, Cluster 2 vs Cluster 0
+09_pseudobulk_DE_cluster2_vs_0.tsv.gz	donor-paired pseudobulk differential expression, Cluster 2 vs Cluster 0
+12_cell_vs_pseudobulk_concordance.tsv.gz	concordance between cell-level and pseudobulk results
+13_data_driven_core_genes_up_in_cluster2.tsv	data-driven core genes up in Cluster 2
+14_data_driven_core_genes_up_in_cluster0.tsv	data-driven core genes up in Cluster 0
+17_donor_average_expression_audit_panel	per-donor audit panel expression in strict object
+20_global_dotplot_audit_panel	all-major-cell-type background audit for audit panel
+21_global_dotplot_core_genes	all-major-cell-type background audit for data-driven core genes

@@ -1,0 +1,49 @@
+Postprocessed perturbation prioritization summary
+===============================================
+
+Primary bidirectional candidates: 3
+Top primary bidirectional candidates:
+- plx4032 db05238: candDown_adjP=0.00671; refUp_adjP=0.0119; reversal_score=5.269
+- formaldehyde: candDown_adjP=0.0854; refUp_adjP=0.0168; reversal_score=3.540
+- vemurafenib db08881: candDown_adjP=0.0937; refUp_adjP=0.188; reversal_score=2.193
+
+Primary one-sided candidate suppressors: 6
+Top primary one-sided suppressors:
+- lipopolysaccharide: candDown_adjP=0.00474; refUp_adjP=0.703; reversal_score=3.447
+- vx: candDown_adjP=0.00496; refUp_adjP=0.901; reversal_score=3.044
+- etanercept db00005: candDown_adjP=0.014; refUp_adjP=0.901; reversal_score=2.539
+- cisplatin db00515: candDown_adjP=0.014; refUp_adjP=0.807; reversal_score=2.482
+- estradiol db00783: candDown_adjP=0.0384; refUp_adjP=0.535; reversal_score=2.239
+- metformin db00331: candDown_adjP=0.0235; refUp_adjP=0.901; reversal_score=2.098
+
+Sensitivity bidirectional candidates: 0
+
+Sensitivity one-sided suppressors: 83
+Top sensitivity one-sided suppressors:
+- cetuximab db00002: candDown_adjP=4.01e-08; refUp_adjP=0.973; reversal_score=9.026
+- lipopolysaccharide: candDown_adjP=4.8e-06; refUp_adjP=0.973; reversal_score=6.715
+- curcumin: candDown_adjP=4.8e-06; refUp_adjP=0.973; reversal_score=6.526
+- etanercept db00005: candDown_adjP=4.8e-06; refUp_adjP=0.973; reversal_score=6.492
+- ascorbic acid: candDown_adjP=1.06e-05; refUp_adjP=0.973; reversal_score=6.118
+- cigarette smoke: candDown_adjP=1.06e-05; refUp_adjP=0.973; reversal_score=6.099
+- curcumin cid: candDown_adjP=3.34e-05; refUp_adjP=0.973; reversal_score=5.267
+- formoterol db00983: candDown_adjP=6.29e-05; refUp_adjP=0.973; reversal_score=5.113
+- imatinib db00619: candDown_adjP=6.41e-05; refUp_adjP=0.973; reversal_score=5.090
+- ubiquinol: candDown_adjP=6.41e-05; refUp_adjP=0.973; reversal_score=5.056
+
+Primary mechanism buckets:
+- Inflammatory / stress perturbation (n=2): formaldehyde; lipopolysaccharide
+- MAPK/BRAF-related (n=2): plx4032 db05238; vemurafenib db08881
+- Other / unclassified (n=2): vx; estradiol db00783
+- Cytotoxic / DNA-stress-like perturbation (n=1): cisplatin db00515
+- Immune / signaling-targeted (n=1): etanercept db00005
+- Metabolic / nutrient-related (n=1): metformin db00331
+
+Sensitivity mechanism buckets:
+- Other / unclassified (n=59): 5-fluorouracil; estradiol db00783; retinoic acid; 4-hydroxytamoxifen; harman
+- Immune / signaling-targeted (n=8): cetuximab db00002; curcumin; etanercept db00005; curcumin cid; formoterol db00983
+- Inflammatory / stress perturbation (n=6): lipopolysaccharide; cigarette smoke; hydrogen peroxide; hypochlorous acid; ethanol
+- Cytotoxic / DNA-stress-like perturbation (n=4): trovafloxacin; menadione db00170; cisplatin db00515; decitabine db01262
+- Metabolic / nutrient-related (n=3): ascorbic acid; ubiquinol; resveratrol db02709
+- Neuroactive / anesthetic-related (n=2): phenytoin; morphine
+- MAPK/BRAF-related (n=1): plx4720 cid

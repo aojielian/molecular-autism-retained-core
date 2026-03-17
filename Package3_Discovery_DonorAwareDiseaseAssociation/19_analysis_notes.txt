@@ -1,0 +1,5 @@
+Package 3 = discovery cohort donor-aware disease association.
+Abundance 解释口径：仅限 strict retained core microglia (cluster 0 vs 2) 内部组成，不代表全脑或全 microglia 绝对 abundance。
+Module 解释口径：按 donor x cluster 平均 log-normalized expression module score。
+State-shift 解释口径：同一 donor 内 Cluster2 - Cluster0，再比较 ASD vs Control。
+Pseudobulk 解释口径：分别输出 pooled retained、cluster0-specific、cluster2-specific，以及 donor-level pseudobulk delta model [Cluster2 - Cluster0] ~ dx。

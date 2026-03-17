@@ -1,0 +1,4 @@
+program	model_type	covariates_used	n_samples	n_subjects	beta_ASD_vs_Control	se	t_value	p_value	direction_expected	direction_observed	direction_match	BH_FDR
+candidate_program_score	lme_random_intercept_subject	region;SeqBatch;Sex;Ancestry;Age;Age_sqd;PMI;RIN	725	103	0.185352701659343	0.0646550131763033	2.86679551288494	0.00512861789921452	ASD_higher	ASD_higher	TRUE	0.00769292684882178
+reference_program_score	lme_random_intercept_subject	region;SeqBatch;Sex;Ancestry;Age;Age_sqd;PMI;RIN	725	103	-0.230914826411436	0.0995567370533524	-2.31942943537501	0.0225609941681015	ASD_lower	ASD_lower	TRUE	0.0225609941681015
+candidate_minus_reference	lme_random_intercept_subject	region;SeqBatch;Sex;Ancestry;Age;Age_sqd;PMI;RIN	725	103	0.415362028269915	0.135797934501093	3.05867706895477	0.00290391272797425	ASD_higher	ASD_higher	TRUE	0.00769292684882178

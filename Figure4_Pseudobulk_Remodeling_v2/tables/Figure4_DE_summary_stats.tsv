@@ -1,0 +1,4 @@
+analysis	n_genes	n_fdr10_up	n_fdr10_down	min_fdr	top_up_gene	top_down_gene
+pooled_retained	4446	8	0	0.00726755941299714	SPP1	OSBPL6
+cluster0	2566	8	0	0.00266894976485007	SPP1	WLS
+cluster2	2071	3	0	0.00825652948501486	SPP1	PMEPA1
