@@ -1,2 +1,0 @@
-signature_name	cluster	n_donors	mean_score_ASD	mean_score_Control	effect_ASD_minus_Control_validation	wilcox_p_validation	wilcox_fdr_validation	effect_ASD_minus_Control_discovery	wilcox_p_discovery	wilcox_fdr_discovery	top_marker_preview	n_mapped	cluster_label	neglog10p
-Cluster18	18	29	-0.00173403024475259	0.00834265827532289	-0.0100766885200755	0.121298322125144	1	-0.00597466897169229	0.65939885822075	0.797508211797955	BANK1, BACH2, EBF1, AFF3, RIPOR2, OSBPL10, SEL1L3, FCRL1, IGHM, PAX5, RALGPS2, BLK	47	C18	0.916145206526923

@@ -11,16 +11,21 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-results/
-outs/
-logs/
-slurm_logs/
-*.gz
-*.bgz
+
+# large data / binary objects
 *.rds
 *.RData
+*.gz
+*.bgz
 *.pdf
 *.png
 *.jpg
 *.jpeg
 *.tiff
+
+# analysis outputs
+Figure*/
+results/
+outs/
+logs/
+slurm_logs/

@@ -1,7 +1,0 @@
-Figure 1 exact n summary
-Panels A/B (discovery object): 34945 cells, 60 donors, 19 clusters
-Panels A/B Control: 12951 cells, 29 donors
-Panels A/B ASD: 21994 cells, 31 donors
-Panels D/E (strict retained core): 13985 cells, 59 donors, 2 retained clusters
-Panels D/E Control: 4226 cells, 28 donors
-Panels D/E ASD: 9759 cells, 31 donors

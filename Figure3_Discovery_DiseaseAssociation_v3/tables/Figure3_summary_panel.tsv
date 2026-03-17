@@ -1,8 +1,0 @@
-endpoint	endpoint_short	row	state	state_x	stat_text	point_fill	point_color
-Cluster 2 proportion	"Cluster 2
-proportion"	3	Higher in ASD	1	beta = 0.054; lm P = 0.069	#C97B84	#C97B84
-log2(C2/C0) ratio	"log2(C2/C0)
-ratio"	2	Higher in ASD	1	beta = 0.587; lm P = 0.064	#C97B84	#C97B84
-Donor-paired delta model	"Donor-paired
-delta model"	1	"No robust dx-enhanced
-internal shift"	2	50 paired donors; 0 genes FDR < 0.10	white	grey30

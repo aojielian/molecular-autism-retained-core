@@ -1,6 +1,0 @@
-Figure 3 = discovery-stage disease association.
-Panel D removed intentionally; interpretation is carried in the legend and Results text rather than a text-heavy summary panel.
-Paired donor count for delta model: 50
-Genes with FDR<0.10 in donor-delta model: 0
-Minimum FDR in donor-delta model: 0.985094
-Interpretation target: modest cluster 2 enrichment and higher relative C2/C0 ratio, but no robust diagnosis-enhanced internal state shift.

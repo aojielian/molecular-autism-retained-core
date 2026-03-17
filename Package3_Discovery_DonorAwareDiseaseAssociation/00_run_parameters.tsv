@@ -1,2 +1,0 @@
-input_rds	assay	cluster_col	donor_col	dx_col	n_cells	n_donors	n_asd	n_control	min_cells_donor	min_cells_cluster
-/gpfs/hpc/home/lijc/lianaoj/autism_scRNA/MolecularAutism_Revision/Package2_strict_input_fixed_from_original.rds	RNA	cluster_use	orig.ident	Diagnosis	13985	59	31	28	20	5

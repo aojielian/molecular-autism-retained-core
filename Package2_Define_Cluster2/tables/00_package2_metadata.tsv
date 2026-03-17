@@ -1,9 +1,0 @@
-item	value
-n_cells	13985
-n_features	31112
-default_assay	RNA
-cluster_col	cluster_use
-donor_col	individual_ID
-dx_col	Diagnosis
-ref_cluster	0
-cand_cluster	2

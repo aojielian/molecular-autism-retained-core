@@ -1,7 +1,0 @@
-item	value
-barcode_col	cell
-celltype_col	cluster
-donor_col	individual
-dx_col	diagnosis
-n_all_cells	104559
-n_mg_cells	3331
