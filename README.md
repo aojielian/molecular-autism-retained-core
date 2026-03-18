@@ -1,6 +1,6 @@
 # Molecular Autism retained-core microglial remodeling analysis
 
-This repository contains the analysis code supporting the main and supplementary results of the manuscript:
+This repository contains the analysis and figure-generation code supporting the main and supplementary results of the manuscript:
 
 **Broad cortical microglial remodeling in autism spectrum disorder converges on a reproducible but non-discrete candidate/reference axis**
 
@@ -18,27 +18,39 @@ Supplementary perturbation and TF analyses are included as **supportive mechanis
 ## Repository structure
 
 ```text
-scripts/
-└── analysis/
-    ├── package1_discovery_audit.R
-    ├── package1b_cluster_annotation_contaminant_audit.R
-    ├── package2_define_cluster2.R
-    ├── package2b_residual_background_audit.R
-    ├── Package3_discovery_donor_aware_disease_association.R
-    ├── Package4_Velmeshev_v2_score_based_validation.R
-    ├── Package4b_direction_consistency.R
-    ├── Package5_directional_concordance_global_summary.R
-    ├── Package6_validation_results_freezeout.R
-    ├── Package7_minimal_robustness_analysis.R
-    ├── Step08_Gandal2022_bulk_program_validation.R
-    ├── Step08b_Gandal2022_leave_one_region_out_sensitivity.R
-    ├── drug_reversal_prioritization.py
-    ├── postprocess_drug_prioritization.py
-    ├── tf_prioritization.py
-    └── README_molecular_autism_retained_core.md
-```
+analysis/
+  package1_discovery_audit.R
+  package1b_cluster_annotation_contaminant_audit.R
+  package2_define_cluster2.R
+  package2b_residual_background_audit.R
+  Package3_discovery_donor_aware_disease_association.R
+  Package4_Velmeshev_v2_score_based_validation.R
+  Package4b_direction_consistency.R
+  Package5_directional_concordance_global_summary.R
+  Package6_validation_results_freezeout.R
+  Package7_minimal_robustness_analysis.R
+  Step08_Gandal2022_bulk_program_validation.R
+  Step08b_Gandal2022_leave_one_region_out_sensitivity.R
+  drug_reversal_prioritization.py
+  postprocess_drug_prioritization.py
+  tf_prioritization.py
 
-If figure-generation scripts are included separately in your local project, they can be documented in a companion `figures/` directory, but the main reproducibility logic of the revised manuscript is captured by the analysis scripts listed above.
+figures/
+  Figure1.R
+  Figure2.R
+  Figure3.R
+  Figure4.R
+  Figure5.R
+  Figure6.R
+  Supplementary_Figure_S2.R
+  Supplementary_Figure_S3.R
+  Supplementary_Figure_S4.R
+  Supplementary_Figure_S5.R
+
+README.md
+RUN_FIRST.md
+environment/sessionInfo.txt
+```
 
 ---
 
@@ -184,7 +196,6 @@ Large primary input matrices are not distributed in this GitHub repository unles
 | `reference_genes.txt` | reference program gene list | bulk validation |
 | `13_pseudobulk_all_retained_ASD_vs_Control.tsv.gz` | pooled retained-core pseudobulk DE results | supporting outputs |
 | `Gene_NormalizedExpression_Metadata_wModelMatrix.RData` | Gandal 2022 bulk validation input | bulk validation |
-| `input_manifest.tsv` | manifest linking frozen inputs to manuscript analyses | reproducibility guidance |
 
 ---
 
@@ -207,7 +218,7 @@ Users may run the scripts from any local working directory, provided that the sc
 ## Example 1. Cross-cohort validation (Velmeshev)
 
 ```bash
-Rscript /absolute/path/to/scripts/analysis/Package4_Velmeshev_v2_score_based_validation.R \
+Rscript /absolute/path/to/analysis/Package4_Velmeshev_v2_score_based_validation.R \
   --disc_rds /absolute/path/to/zenodo_bundle/Package2_strict_input_fixed_from_original.rds \
   --val_rds /absolute/path/to/zenodo_bundle/Velmeshev_Object.rds \
   --outdir /absolute/path/to/output/results/Package4_CrossCohortValidation_Velmeshev_v2
@@ -231,7 +242,7 @@ Expected outputs typically include:
 ## Example 2. External bulk-cortex validation (Gandal 2022)
 
 ```bash
-Rscript /absolute/path/to/scripts/analysis/Step08_Gandal2022_bulk_program_validation.R \
+Rscript /absolute/path/to/analysis/Step08_Gandal2022_bulk_program_validation.R \
   --bulk_rdata /absolute/path/to/zenodo_bundle/Gene_NormalizedExpression_Metadata_wModelMatrix.RData \
   --candidate_genes /absolute/path/to/zenodo_bundle/candidate_genes.txt \
   --reference_genes /absolute/path/to/zenodo_bundle/reference_genes.txt \
@@ -257,7 +268,7 @@ Expected outputs typically include:
 If desired, users may also inspect the discovery-stage retained-core framework.
 
 ```bash
-Rscript /absolute/path/to/scripts/analysis/package1_discovery_audit.R \
+Rscript /absolute/path/to/analysis/package1_discovery_audit.R \
   --microglia_rds /absolute/path/to/zenodo_bundle/Microglia_Clustered.rds \
   --outdir /absolute/path/to/output/results/Package1_Figure1_DiscoveryAudit
 ```
@@ -266,6 +277,21 @@ This workflow supports:
 
 - **Figure 1**
 - **Supplementary Figure S2**
+
+---
+
+## Figure generation
+
+Figure-generation scripts are provided under `figures/` and correspond to:
+
+- **Figure 1–Figure 6**
+- **Supplementary Figure S2–Supplementary Figure S5**
+
+Recommended workflow:
+
+1. run the relevant analysis scripts first
+2. generate intermediate results/tables
+3. run the figure scripts using the corresponding outputs
 
 ---
 
@@ -300,9 +326,9 @@ Please check the following first:
 
 Please also consult:
 
-- `input_manifest.tsv`
+- `RUN_FIRST.md`
 - `Supplementary Table S10`
-- any environment/session information files included with the repository
+- `environment/sessionInfo.txt`
 
 ---
 
@@ -318,10 +344,9 @@ Please also consult:
 
 The manuscript reports the main software environment, package versions, and key analysis parameters in **Supplementary Table S10**.
 
-If available, repository-level environment/session information files should also be provided alongside the repository, for example:
+Repository-level environment/session information is provided in:
 
 - `environment/sessionInfo.txt`
-- `environment/R_packages_versions.tsv`
 
 ---
 
