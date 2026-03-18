@@ -46,6 +46,7 @@ figures/
   Supplementary_Figure_S3.R
   Supplementary_Figure_S4.R
   Supplementary_Figure_S5.R
+  Supplementary_Figure_S6.R
 
 README.md
 RUN_FIRST.md
