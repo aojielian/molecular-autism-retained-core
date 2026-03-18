@@ -159,17 +159,17 @@ pC <- ggplot(sens_top, aes(x = reversal_score, y = label)) +
 
 fig <- (pA / pB / pC) + plot_layout(heights = c(1.0, 1.15, 1.0))
 
-ggsave(file.path(outdir, "Supplementary_Figure_S3.png"), fig, width = 12.5, height = 14.0, dpi = 300)
-ggsave(file.path(outdir, "Supplementary_Figure_S3.pdf"), fig, width = 12.5, height = 14.0)
+ggsave(file.path(outdir, "Supplementary_Figure_S4.png"), fig, width = 12.5, height = 14.0, dpi = 300)
+ggsave(file.path(outdir, "Supplementary_Figure_S4.pdf"), fig, width = 12.5, height = 14.0)
 
 fwrite(primary_top[, .(perturbagen_norm, reversal_score, support_strength,
                        Adjusted_p_value_candDown, Adjusted_p_value_refUp)],
-       file.path(outdir, "Supplementary_Figure_S3_primary_top_hits.tsv"), sep = "\t")
+       file.path(outdir, "Supplementary_Figure_S4_primary_top_hits.tsv"), sep = "\t")
 fwrite(sens_top[, .(perturbagen_norm, reversal_score, support_strength,
                     Adjusted_p_value_candDown, Adjusted_p_value_refUp)],
-       file.path(outdir, "Supplementary_Figure_S3_sensitivity_top_hits.tsv"), sep = "\t")
+       file.path(outdir, "Supplementary_Figure_S4_sensitivity_top_hits.tsv"), sep = "\t")
 if (!is.null(buckets) && nrow(buckets) > 0) {
-  fwrite(buckets, file.path(outdir, "Supplementary_Figure_S3_primary_mechanism_buckets.tsv"), sep = "\t")
+  fwrite(buckets, file.path(outdir, "Supplementary_Figure_S4_primary_mechanism_buckets.tsv"), sep = "\t")
 }
 
-message("Wrote Supplementary Figure S3 to: ", outdir)
+message("Wrote Supplementary Figure S4 to: ", outdir)

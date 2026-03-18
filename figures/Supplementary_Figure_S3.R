@@ -1,4 +1,4 @@
-#!/usr/bin/env Rscript
+!/usr/bin/env Rscript
 suppressPackageStartupMessages({
   library(data.table)
   library(ggplot2)
@@ -216,7 +216,7 @@ pE <- make_violin_panel(score_shift, shift_val_col, "Shift",
 fig <- (pA | pB) / (pC | pD | pE) +
   plot_layout(widths = c(1.15, 0.95), heights = c(1, 1))
 
-ggsave(file.path(outdir, "Supplementary_Figure_S2_validation_QC.png"), fig, width = 16, height = 11.5, dpi = 300)
-ggsave(file.path(outdir, "Supplementary_Figure_S2_validation_QC.pdf"), fig, width = 16, height = 11.5)
+ggsave(file.path(outdir, "Supplementary_Figure_S3_validation_QC.png"), fig, width = 16, height = 11.5, dpi = 300)
+ggsave(file.path(outdir, "Supplementary_Figure_S3_validation_QC.pdf"), fig, width = 16, height = 11.5)
 
 message("Written to: ", outdir)

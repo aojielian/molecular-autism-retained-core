@@ -149,7 +149,7 @@ pD <- ggplot(lineage_long, aes(x = .data[[lineage_col]], y = .data[[cluster_col2
 fig <- (pA | pC) / (pB | pD) +
   plot_layout(widths = c(1.15, 0.85), heights = c(0.9, 1.1))
 
-ggsave(file.path(outdir, "Supplementary_Figure_S1.pdf"), fig, width = 15.5, height = 12)
-ggsave(file.path(outdir, "Supplementary_Figure_S1.png"), fig, width = 15.5, height = 12, dpi = 300)
+ggsave(file.path(outdir, "Supplementary_Figure_S2.pdf"), fig, width = 15.5, height = 12)
+ggsave(file.path(outdir, "Supplementary_Figure_S2.png"), fig, width = 15.5, height = 12, dpi = 300)
 
-message("Supplementary Figure S1 written to: ", outdir)
+message("Supplementary Figure S2 written to: ", outdir)

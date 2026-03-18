@@ -97,11 +97,11 @@ pC <- ggplot(conv_top, aes(x = joint_score, y = TF)) +
 
 fig <- (pA / pB / pC) + plot_layout(heights = c(1.0, 1.0, 1.15))
 
-ggsave(file.path(outdir, "Supplementary_Figure_S4.png"), fig, width = 12.5, height = 14.0, dpi = 300)
-ggsave(file.path(outdir, "Supplementary_Figure_S4.pdf"), fig, width = 12.5, height = 14.0)
+ggsave(file.path(outdir, "Supplementary_Figure_S5.png"), fig, width = 12.5, height = 14.0, dpi = 300)
+ggsave(file.path(outdir, "Supplementary_Figure_S5.pdf"), fig, width = 12.5, height = 14.0)
 
-fwrite(cand_top, file.path(outdir, "Supplementary_Figure_S4_candidate_topTFs.tsv"), sep = "\t")
-fwrite(pool_top, file.path(outdir, "Supplementary_Figure_S4_pooledUp_topTFs.tsv"), sep = "\t")
-fwrite(conv_top, file.path(outdir, "Supplementary_Figure_S4_convergent_TFs.tsv"), sep = "\t")
+fwrite(cand_top, file.path(outdir, "Supplementary_Figure_S5_candidate_topTFs.tsv"), sep = "\t")
+fwrite(pool_top, file.path(outdir, "Supplementary_Figure_S5_pooledUp_topTFs.tsv"), sep = "\t")
+fwrite(conv_top, file.path(outdir, "Supplementary_Figure_S5_convergent_TFs.tsv"), sep = "\t")
 
-message("Wrote Supplementary Figure S4 to: ", outdir)
+message("Wrote Supplementary Figure S5 to: ", outdir)
