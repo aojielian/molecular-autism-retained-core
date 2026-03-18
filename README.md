@@ -243,10 +243,10 @@ Expected outputs typically include:
 
 ```bash
 Rscript /absolute/path/to/analysis/Step08_Gandal2022_bulk_program_validation.R \
-  --bulk_rdata /absolute/path/to/zenodo_bundle/Gene_NormalizedExpression_Metadata_wModelMatrix.RData \
-  --candidate_genes /absolute/path/to/zenodo_bundle/candidate_genes.txt \
-  --reference_genes /absolute/path/to/zenodo_bundle/reference_genes.txt \
-  --outdir /absolute/path/to/output/results/Step08_Gandal2022_bulk_program_validation
+  /absolute/path/to/zenodo_bundle/Gene_NormalizedExpression_Metadata_wModelMatrix.RData \
+  /absolute/path/to/zenodo_bundle/candidate_genes.txt \
+  /absolute/path/to/zenodo_bundle/reference_genes.txt \
+  /absolute/path/to/output/results/Step08_Gandal2022_bulk_program_validation
 ```
 
 This workflow supports:
